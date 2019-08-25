@@ -45,7 +45,7 @@
       <p> Amazing people are making amazing designs in a fun environment.</p>
     </div>
     <div class="mouse ">
-      <img src="./assets/mouse_click.png">
+      <img src="./assets/mouse_click.png" alt="mouse">
     </div>
   </div>
 
@@ -75,93 +75,119 @@
     </div>
 
   </div>
-  <div class="what">
-    <p>What we do</p>
-  </div>
-  <div class="row">
-    <div id="design" class="col-4">
-      <img class="img1" src="./assets/services_icons/design_icon.png">
-      <h5>Design</h5>
-      <p class="dezine">Our design practice offers a full range of services including brand strategy, interaction and
-        visual design and user experience testing. Throughout your project, our designers create and implement visual
-        design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-      </p>
+  <div id="section4">
+    <div class="what">
+      <p>What we do</p>
     </div>
-    <div id="development" class="col-4">
-
-      <img class="img2" src="./assets/services_icons/dev_icon.png">
-      <h5>Development</h5>
-      <p class="develo">All engineers are fluent in the latest enterprise, mobile and web development technologies. They
-        collaborate with your team to write, and improve code on a daily basis, using proven practices such as
-        test-driven development and pair programming.</p>
-    </div>
-    <div id="management" class="col-4">
-      <img class="work3" src="./assets/services_icons/product_icon.png">
-      <h5>Product Management</h5>
-      <p class="produce">Planning and development is iterative. Because we are constantly coding and testing, the
-        products
-        we build are always ready to go live. This iterative process allows for changes as business requirements evolve.
-      </p>
-    </div>
-  </div>
-
-  <div>
-
-    <h2 class="portfolios">Portfolio</h2>
-
     <div class="row">
-      <div class="col-lg-3 col-col-md-3 col-sm-3">
-        <div id="work1">
-          <img class="imagew1" src="./assets/portfolio/work4.jpg">
-          <p class="porfolio1">Portfolio1</p>
+      <div id="design" class="col-4">
+        <img class="img1" src="./assets/services_icons/design_icon.png">
+        <div class="fhidden">
+          <h5>Design</h5>
+          <p class="dezine">Our design practice offers a full range of services including brand strategy, interaction
+            and
+            visual design and user experience testing.
+            Throughout your project, our designers create and implement visual
+            design and workflows, solicit user feedback and work with you to make sure what gets built is what is
+            needed.
+          </p>
         </div>
       </div>
+      <div id="development" class="col-4">
 
-
-
-
+        <img class="img2" src="./assets/services_icons/dev_icon.png">
+        <h5>Development</h5>
+        <p class="develo">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+          They
+          collaborate with your team to write, and improve code on a daily basis, using proven practices such as
+          test-driven development and pair programming.</p>
+      </div>
+      <div id="management" class="col-4">
+        <img class="img3" src="./assets/services_icons/product_icon.png">
+        <h5>Product Management</h5>
+        <p class="produce">Planning and development is iterative. Because we are constantly coding and testing, the
+          products
+          we build are always ready to go live. This iterative process allows for changes as business requirements
+          evolve.
+        </p>
+      </div>
     </div>
-    <img src="./assets/portfolio/work3.jpg" alt="" class="col-md-3">
-    <img src="./assets/portfolio/work2.jpg" alt="" class="col-md-3">
-    <img src="./assets/portfolio/work1.jpg" alt="" class="col-md-3">
   </div>
-  <div class="row" id="port2">
-    <img src="./assets/portfolio/work5.jpg" alt="" class="col-md-3">
-    <img src="./assets/portfolio/work6.jpg" alt="" class="col-md-3">
-    <img src="./assets/portfolio/work7.jpg" alt="" class="col-md-3">
-    <img src="./assets/portfolio/work8.jpg" alt="" class="col-md-3">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="row">
+      <div class="col-md-3" id="work4">
+        <img src="./assets/portfolio/work4.jpg">
+        <p class="cover4" class="text">FourthWork</p>
+      </div>
+      <div class="col-md-3" id="work3">
+        <img src="./assets/portfolio/work3.jpg">
+        <p class="cover3" class="text">ThirdWork</p>
+      </div>
+      <div class="col-md-3" id="work2">
+        <img src="./assets/portfolio/work2.jpg">
+        <p class="cover2" class="text">SecondWork</p>
+      </div>
+      <div class="col-md-3" id="work1">
+        <img src="./assets/portfolio/work1.jpg">
+        <p class="cover1" class="text">FirstWork</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-md-3" id="work5">
+        <img src="./assets/portfolio/work5.jpg">
+        <p class="cover5" class="text">FifthWork</p>
+      </div>
+      <div class="col-md-3" id="work6">
+        <img src="./assets/portfolio/work6.jpg">
+        <p class="cover6" class="text">SixthWork</p>
+      </div>
+      <div class="col-md-3" id="work7">
+        <img src="./assets/portfolio/work7.jpg">
+        <p class="cover7" class="text">SeventhWork</p>
+      </div>
+      <div class="col-md-3" id="work8">
+        <img src="./assets/portfolio/work8.jpg">
+        <p class="cover8" class="text">EighthWork</p>
+      </div>
+    </div>
   </div>
-  </div>
-
-
   <div class="contact">
     <h2 class="contactus">Contact us</h2>
     <form class="data">
       <input type="text" id="name" placeholder="Name.." size="50">
-      <input type="text" id="email" placeholder="Email.." size="50"><br>
+      <input type="email" id="email" placeholder="Email.." size="50"><br>
       <div class="area">
-        <textarea rows="12" cols="90">Your message here...</textarea>
+        <textarea name="message" id="message" rows="12" cols="90" placeholder="Your message here..."></textarea> </div>
+      <div>
+        <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
       </div>
-      <button type="submit">Submit</button>
     </form>
-    <div class="images">
-      <img class="twitter" src="./assets/social_icons/twitter.png">
-      <img class="dribble" src="./assets/social_icons/dribble.png">
-      <img class="facebook" src="./assets/social_icons/facebook.png">
-      <img class="googlep" src="./assets/social_icons/g_plus.png">
-      <img class="skype" src="./assets/social_icons/skype.png">
-      <img class="stumble" src="./assets/social_icons/stumble_upon.png">
-      <img class="behance" src="./assets/social_icons/behance.png">
-      <img class="pin" src="./assets/social_icons/pinterest.png">
-      <img class="flickr" src="./assets/social_icons/flickr.png">
-
-    </div>
-    <div class="name">
-      <h5 class="studio">Delani Studio<br>2019</h5>
-    </div>
-
-
   </div>
+  <div class="images">
+    <a href="https://twitter.com/login"><img class="twitter" src="./assets/social_icons/twitter.png" alt="Twitter"></a>
+    <a href="https://dribbble.com/"><img class="dribbble" src="./assets/social_icons/dribble.png" alt="Dribble"></a>
+    <a href="https://www.facebook.com/"><img class="facebook" src="./assets/social_icons/facebook.png"
+        alt="Facebook"></a>
+    <a href="https://aboutme.google.com/u/0/?referer=gplus"><img class="googleplus"
+        src="./assets/social_icons/g_plus.png" alt="Google Plus"></a>
+    <a href="https://www.skype.com/en/"><img class="skype" src="./assets/social_icons/skype.png" alt="Skype"></a>
+    <a href="https://www.stumbleupon.com/"><img class="stumble" src="./assets/social_icons/stumble_upon.png"
+        alt="Stumble"></a>
+    <a href="https://www.behance.net/"><img class="behance" src="./assets/social_icons/behance.png" alt="Behance"></a>
+    <a href="https://www.pinterest.com/"><img class="pinterest" src="./assets/social_icons/pinterest.png"
+        alt="Pinterest"></a>
+    <a href="https://www.flickr.com/"><img class="flickr" src="./assets/social_icons/flickr.png" alt="Flickr"></a>
+  </div>
+  <div class="name">
+    <h5 class="studio">Delani Studio<br>2019</h5>
+  </div>
+
+
+
 
 
 
