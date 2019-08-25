@@ -4,11 +4,12 @@ $(document).ready(function() {
     $(".img1").toggle(1000);
   });
   $("#development").click(function() {
-    $(".developments").toggle(1000);
+    $(".develo").toggle(1000);
     $(".img2").toggle(1000);
   });
-  $(".management").click(function() {
-    $(".productsm").toggle(100);
+  $("#management").click(function() {
+    $(".work3").toggle("slow");
+    $(".produce").toggle("slow");
   });
   $(".what").css("text-align", "center");
 });
