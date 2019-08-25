@@ -93,15 +93,13 @@
   /* height: 300px; */
   margin-left: 200px;
 }
-.design {
+#design {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.designe {
-  font-size: 16px;
+*/ .designe {
   padding-left: 5px;
   padding-top: 2px;
-  text-transform: uppercase;
 }
 .development {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -194,4 +192,28 @@
 }
 .container {
   margin: auto !important;
+}
+h5 {
+  text-transform: uppercase;
+}
+.dezine {
+  display: none;
+  text-transform: lowecase;
+}
+.develo {
+  display: none;
+}
+.produce {
+  display: none;
+}
+#work1:hover img {
+  transform: scale(1.2);
+  transition: all 2s ease;
+}
+input[type="text"] {
+  border: 3px solid white;
+  background: transparent;
+}
+textarea {
+  background: transparent;
 }
