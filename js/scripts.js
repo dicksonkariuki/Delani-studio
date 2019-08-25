@@ -12,6 +12,7 @@ $(document).ready(function() {
     $(".produce").toggle("slow");
   });
   $(".what").css("text-align", "center");
+  $(".what").css("font-weight", "bold");
 });
 $("form.data").submit(function(event) {
   var name = $("input#name").val();
