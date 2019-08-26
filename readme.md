@@ -16,7 +16,7 @@ Page loads to display the website.
 | --------------------- | -------------------------- | ---------------------------------- |
 | Page loads on browser | user inputs name and email | An elert message thanking the user |
 
-This is a link to the live site https://dicksonkariuki.github.io/delani-studio/
+This is a link to the live site https://dicksonkariuki.github.io/Delani-studio/
 
 ## Known Bugs
 
