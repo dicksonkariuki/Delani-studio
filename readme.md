@@ -32,7 +32,7 @@ No known of bugs on the site
 
 ## Support and contact details
 
-Incase of problem, e-mail me at dicksonkariuki4@gmail.com
+Incase of problem, e-mail me at dicksonkariuki4@gmail.com or call +254726045494.
 
 ### License
 
