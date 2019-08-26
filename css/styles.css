@@ -264,3 +264,8 @@ input[type="email"] {
 .container {
   margin-bottom: 60px !important;
 }
+#data input,
+textarea {
+  color: white;
+  background: none;
+}
