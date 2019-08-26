@@ -14,7 +14,7 @@ $(document).ready(function() {
   $(".what").css("text-align", "center");
   $(".what").css("font-weight", "bold");
 });
-$("form.data").submit(function(event) {
+$("form#data").submit(function(event) {
   var name = $("input#name").val();
   var email = $("input#email").val();
   var textarea = $("input#message").val();
