@@ -4,6 +4,10 @@
 
 #### By **Dickson Kariuki**
 
+### Delani studio website image
+
+![image](./assets/h_img.jpg)
+
 ## Setup/Installation Requirements
 
 *Visit the internet.
