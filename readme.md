@@ -6,9 +6,9 @@
 
 ## Setup/Installation Requirements
 
-1.Visit the internet.
-2.Click the link to the site on the browser.
-3.Page loads to display the website.
+*Visit the internet.
+*Click the link to the site on the browser.
+\*Page loads to display the website.
 
 ### Behavior Driven Development.
 
@@ -24,11 +24,11 @@ No known of bugs on the site
 
 ## Technologies Used
 
-1.jQuery.
-2.javascript.
-3.CSS.
-4.Bootstrap.
-5.HTML.
+*jQuery.
+*javascript.
+*CSS.
+*Bootstrap.
+\*HTML.
 
 ## Support and contact details
 
