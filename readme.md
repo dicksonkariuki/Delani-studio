@@ -6,6 +6,10 @@
 
 ## Setup/Installation Requirements
 
+## Section of Delani Website
+
+![image](./assets/h_img.jpg)
+
 *Visit the internet.
 *Click the link to the site on the browser.
 \*.Page loads to display the website.
