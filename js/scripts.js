@@ -25,7 +25,7 @@ $("form#data").submit(function(event) {
   ) {
     alert(name + ".We have received your message.Thankyou for reaching us.");
   } else {
-    alert("please input all your details");
+    alert("Please fill all the required fields ");
   }
   event.preventDefault();
 });
